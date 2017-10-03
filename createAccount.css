@@ -1,0 +1,10 @@
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 25px;
+}
+
+label, input{
+    padding: 10px;
+}
