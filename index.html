@@ -4,26 +4,78 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Contractulon</title>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navBar.css">
 </head>
 
+<header>
+    <h1>Contractor For Hire</h1>
+    <a href="http://tutorialzine.com/2015/07/freebie-7-clean-and-responsive-forms/">Download App</a>
+
+
+</header>
+
 <body>
-    <div class="Splash Screen">
+    <div class="login-screen">
 
 
         <p>Welcome To Contractulon! Professional DIY!</p>
 
     </div>
 
-    <div class="nav">
-        <p>Navigation Bar</p>
-        <ul>
-            <li><a href="index.html">Refresh</a></li>
-            <li><a href="projectpage.html">Project Page</a> </li>
-            <li><a href="contractorprofile.html">Contractor Profiles</a></li>
-            <li><a href="clientWelcomePage.html">Clients</a></li>
-        </ul>
-    </div>
+
+    <form class="form-login" method="post" action="#">
+
+        <div class="form-log-in-with-email">
+
+            <div class="form-white-background">
+
+                <div class="form-title-row">
+                    <h1>Log in</h1>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                            <span>Email</span>
+                            <input type="email" name="email">
+                        </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                            <span>Password</span>
+                            <input type="password" name="password">
+                        </label>
+                </div>
+
+                <div class="form-row">
+                    <button onclick="clientWelcomePage.href" type="button">Log in</button>
+                </div>
+
+            </div>
+
+            <a href="#" class="form-forgotten-password">Forgotten password &middot;</a>
+            <a href="#" class="form-create-an-account">Create an account &rarr;</a>
+
+        </div>
+
+        <div class="form-sign-in-with-social">
+
+            <div class="form-row form-title-row">
+                <span class="form-title">Sign in with</span>
+            </div>
+
+            <a href="#" class="form-google-button">Google</a>
+            <a href="#" class="form-facebook-button">Facebook</a>
+            <a href="#" class="form-twitter-button">Twitter</a>
+
+        </div>
+
+    </form>
+
+    
+
 </body>
 
 </html>
