@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+.container, .descriptions, 
+.budget, .search, .photos {
+    border: 1px solid black;
+    padding: 10px;
+}
+.budget {
+    
+}
+.photos {
+    
+}
+.skills {
+    width: 500px;
+}
+
+.search {
+    width: 30%;
+    align-self: flex-end;
+}
+.main {
+    width: 70%
+}
+.container {
+    display: inline-flex;
+}
+.wrap {
+    display: inline-flex;
+    width: 100%;
+}
