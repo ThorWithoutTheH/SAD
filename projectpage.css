@@ -12,12 +12,12 @@ html {
     padding: 10px;
 }
 .skills {
-    width: 500px;
+    width: 90%;
 }
 
 
 .wrapper {
-    margin: 5% 15%;
+    margin: 2% 15%;
 }
 .results li {
     list-style: circle;
