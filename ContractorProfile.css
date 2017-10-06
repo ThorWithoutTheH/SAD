@@ -33,3 +33,14 @@ html {
   border: 1px solid black;
   padding: 10px;
 }
+
+.workRequests{
+    padding: 15px;
+    
+}
+
+.projectRequest{
+    border: 1px solid black;
+    padding: 5px;
+    float: left;
+}
