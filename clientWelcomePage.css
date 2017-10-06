@@ -6,9 +6,10 @@
     height: 100px;
     border: 1px solid black;
 }
-.content{
-    
-    
+.content:after {
+    clear: both;
+    display: table;
+    content: ""  
 }
 .personalInfo{
     float: left;
@@ -23,6 +24,12 @@
     height: 470px;
 }
 
+.projectsList:after {
+    clear: both;
+    display: table;
+    content: ""
+}
+
 .project{
     border: 1px solid black;
     float: left;
@@ -33,5 +40,3 @@ img{
     width: 300px;
 }
 
-.footer{
-}
