@@ -21,7 +21,6 @@
     float: right;
     border: 1px solid black;
     width:  630px;
-    height: 470px;
 }
 
 .projectsList:after {
@@ -37,6 +36,16 @@
 }
 img{
     height: 200px;
-    width: 300px;
+    width: 280px;
 }
 
+.footer{
+    clear: both;
+    display: table;
+    content: ""
+}
+.request{
+    border: 1px solid black;
+    float: left;
+    padding: 10px;
+}
