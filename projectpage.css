@@ -15,17 +15,17 @@ html {
     width: 500px;
 }
 
-.search {
-    width: 30%;
-    align-self: flex-end;
+
+.wrapper {
+    margin: 100px;
 }
-.main {
-    width: 70%
+.results li {
+    list-style: circle;
 }
-.container {
-    display: inline-flex;
+.description ul, 
+.search ul {
+    margin: 20px;
 }
-.wrap {
-    display: inline-flex;
-    width: 100%;
+.results li {
+    font-weight: bold;
 }
