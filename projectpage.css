@@ -29,3 +29,7 @@ html {
 .results li {
     font-weight: bold;
 }
+
+label, input{
+    padding: 10px;
+}
