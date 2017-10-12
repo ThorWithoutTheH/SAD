@@ -12,12 +12,19 @@ body{
 }
 
 
-header {
-    
-    
-background: linear-gradient(darkcyan, black);    
+header {       
+background: linear-gradient(darkcyan, #2A2929);    
 }
-
+header h1, header p{
+    color: white;
+    padding-bottom: 10px;
+}
+header p {
+    font-size: 21px;
+}
+header h1 strong {
+    font-size: 65px;
+}
 header a{
     color:#fff;
     text-decoration: none;
