@@ -21,7 +21,7 @@ header  {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   width: 90%;
   height: 100%;
   margin: 0 auto;
@@ -33,9 +33,9 @@ header  {
 }
 
 .message__list {
-  padding: 0;
+  padding: 10px;
   margin: 0;
-  list-style: none;
+  list-style: square;
   width: 100%;
   position: relative;
   
@@ -76,6 +76,7 @@ header  {
   }
 }
 
+
 .message {
   padding: 8px 15px;
   margin-top: 2px;
@@ -93,6 +94,7 @@ header  {
   background-color: #0baaff;
   color: #fff;
   border-radius: 20px 3px 3px 20px;
+    margin-right: 35px;
 }
 
 .bot__image {
@@ -101,6 +103,16 @@ header  {
   position: absolute;
   bottom: 3px;
   left: 0;
+  border-radius: 20px;
+}
+
+.user__image {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  bottom: 3px;
+  right: 0;
+  top: 45px;
   border-radius: 20px;
 }
 
