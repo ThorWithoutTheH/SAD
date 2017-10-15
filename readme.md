@@ -1,9 +1,9 @@
 <h1> System Analysis and Design Group project</h1>
 
-Tom Setterlund
-Edhar Zapeka
-Vittorio Rosa
-Arlene Ata
+<p>Tom Setterlund</p>
+<p>Edhar Zapeka</p>
+<p>Vittorio Rosa</p>
+<p>Arlene Ata</p>
 
 
 
