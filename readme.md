@@ -6,9 +6,11 @@ Vittorio Rosa
 Arlene Ata
 
 
-ERD Diagram
 
-Use Case Diagram
+<a href="images/ERD_Final.pdf">ERD Diagram</a>
+
+
+<a href="images/ContractulonUCD.jpg">Use Case Diagram</a>
 
 
 
